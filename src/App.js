@@ -25,6 +25,11 @@ class App extends Component {
         </label>
         
         <div className = "buttons">
+        <form>
+        <input
+          type="text"
+          placeholder = "Username" />
+        </form>
         <button 
           className = "join"
           type = "submit"
@@ -37,11 +42,6 @@ class App extends Component {
           variant="primary">
           Create a room
         </button>
-        <form>
-        <input
-          type="text"
-          placeholder = "Username" />
-        </form>
         </div>
       </div>
     );

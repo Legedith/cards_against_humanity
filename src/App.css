@@ -46,6 +46,7 @@ button.join{
   font-size: 16px;
   padding: 14px 50px;
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 button.create{
