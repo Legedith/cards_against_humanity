@@ -1,0 +1,57 @@
+label.welcome{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    /* left:300px; 
+    top: 90px; */
+  }
+  
+  label.title{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    position: relative;
+    /* right: 190px; 
+    top: 180px; */
+  }
+  
+  
+  input[type = text]{
+    position: relative;
+    /* width: 200px; */
+    height: 40px;
+    /* right: 80px;
+    top: 20px; */
+    border-radius: 8px;
+    
+  }
+  
+  input[placeholder]{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  div.buttons{
+    display:flex;
+      flex-direction: column;
+      align-items: center;
+    margin-top: 100px;
+  
+  }
+  
+  button.join{
+    border-radius: 8px;
+    width: 300px;
+    font-size: 16px;
+    padding: 14px 50px;
+    margin-bottom: 5px;
+  }
+  
+  button.create{
+    border-radius: 8px;
+    width:300px;
+    font-size: 16px;
+    padding: 14px 40px;
+    margin-bottom: 5px;
+  }

@@ -1,20 +1,9 @@
-import openSocket from "socket.io-client";
 import React, { Component } from "react";
-import "./App.css";
-const io = openSocket("http://localhost:80");
 // import { hot } from "react-hot-loader";
-
+import "./App.css";
 
 class App extends Component {
   render() {
-  // const socket = io('http://localhost:80');
-  io.on('connect', () => {
-    io.send('hi');
-
-    io.on('message', (msg) => {
-      console.log(msg);
-    });
-  });
     return (
       <div className="buttons">
         <label className = "welcome">
